@@ -149,9 +149,8 @@ function addPlusMinus() {
         }
     }
 }
-// event.key === 'number'
+
 document.addEventListener('keydown', function (event) {
-    // console.log(event.key)
     if (!isNaN(event.key) && event.code != 'Space') {
         condit(event.key);
     } else {

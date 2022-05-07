@@ -69,7 +69,6 @@ body {
 .fTh_col,
 .fifth_col {
     margin-left: 15px;
-    /* margin-right: 0; */
 }
 
 .fSt_col {
@@ -90,8 +89,4 @@ body {
 
 .button_wrapper {
     display: flex;
-}
-
-.memoryBtn {
-    /* display: flex; */
 }
