@@ -33,18 +33,15 @@ document.querySelector('.button_wrapper').onclick = (e) => {
     if (e.target.classList.contains('mr')) { readMemory(); }
     if (e.target.classList.contains('mPlus')) { addToMemory(); }
     if (e.target.classList.contains('mMinus')) { deductToMemory(); }
+    if (e.target.classList.contains('equal')) { equalCheck(); }
 
-    if (number.includes(pushBtn)) {
-        condit(pushBtn);
-    }
+    if (number.includes(pushBtn)) { condit(pushBtn); }
     if (operation.includes(pushBtn)) {
         numCheck = '';
         val += pushBtn;
         out.textContent = val;
     }
-    if (e.target.classList.contains('equal')) {
-        equalCheck()
-    }
+
 }
 
 function returnVT() {
